@@ -1,6 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 wasm Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction), [rustwasm](https://rustwasm.github.io/docs/wasm-bindgen/) to learn more.
+
+## Package rustwasm
+
+```bash
+wasm-pack build --target web --dev .
+```
 
 ## Setup
 
